@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-home-box custom-box show">
+        <img src="quiz 1.png" alt="">
+        <br>
+        <h2>Hello User! </h2>
+        <br>
+        <h3>Enter your name to continue the Quiz</h3>
+        <br>
+      <button ><input  type="text" placeholder="ENTER YOUR NAME"></button>
+      <br><br><br>
+      <a href="#" button type="button" class="Enter-btn btn">Enter</button></a>
+      <br><br>
+       
+        <h4>You'll have 10 seconds to answer each questions.</h4>
+        <br>
+       <!--  <button type="button" class="start-quiz-btn btn">Start The Quiz</button> -->
+            <h1>Select Catagory</h1>  
+            <div class="category-box">
+            </div>
+       </div>
+       <div class="quiz-box custom-box">
+           <h1 class="category-text"></h1>
+       <div class="stats">
+       <div class="quiz-time">
+       <div class="remaining-time"></div>
+           <span class="time-up-text">Time's Up</span>
+       </div>
+       <div class="score-board">
+       <span class="score-text">score:</span>
+       <span class="correct-answer"></span>
+       </div>
+       </div>
+       <div class="question-box">
+       <div class="current-question-num">
+       </div>
+       <div class="question-text">
+           
+       </div>
+       </div>
+       <div class="option-box">
+       
+       </div>
+       <div class="answer-description">
+           
+       </div>
+       <div class="next-question">
+       <button type="button" class="next-question-btn btn">Next question</button>
+       <button type="button" class="see-result-btn btn">See Your Result</button>
+       </div>
+       </div>
+       <div class="quiz-over-box custom-box">
+       <h1>Quiz Result</h1>
+       <h4>Hi Sukanta your result is here!</h4>
+       <h4>Total Time: <span class="total-time"></span></h4>
+       <h4>Total Questions: <span class="total-questions"></span></h4>
+       <h4>Attempt: <span class="total-attempt"></span></h4>
+       <h4>Correct: <span class="total-correct"></span></h4>
+       <h4>Wrong: <span class="total-wrong"></span></h4>
+       <h4>Percentage: <span class="percentage"></span></h4>
+       <button type="button" class="start-again-quiz-btn btn">Start Again</button>
+       <button type="button" class="go-home-btn btn">Go To Home</button>
+       </div>
+       <script src="script.js"></script>
+</body>
+</html>
